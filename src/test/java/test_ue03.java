@@ -1,6 +1,24 @@
-import generated.*;
 import org.junit.Rule;
 import org.junit.Test;
+
+import generated.TC_Process_09urruw__Großtest_Möbelnachrichten;
+import generated.TC_Process_09urruw__Großtest_Waschmaschine_verkaufen;
+import generated.TC_Process_09urruw__Großtest_easyway_start_to_finish;
+import generated.TC_Process_09urruw__Internet_vorhanden_2;
+import generated.TC_Process_09urruw__Move_2N;
+import generated.TC_Process_09urruw__full02;
+import generated.TC_Process_09urruw__gatewaypath;
+import generated.TC_Process_09urruw__move_3n;
+import generated.TC_Process_09urruw__move_5n;
+import generated.TC_Process_09urruw__move_6n;
+import generated.TC_Process_09urruw__move_8n;
+import generated.TC_Process_09urruw__move_9n;
+import generated.TC_Process_09urruw__parallelKaution1;
+import generated.TC_Process_09urruw__parallelKaution1v2;
+import generated.TC_Process_09urruw__parallelKaution2;
+import generated.TC_Process_09urruw__parallelKaution2v2;
+import generated.TC_Process_09urruw__random01_7n;
+import generated.TC_Process_09urruw__random02_6n;
 
 public class test_ue03 {
 
@@ -107,6 +125,8 @@ public class test_ue03 {
 
     @Test
     public void test8n() {
+      tc8n.handleEvent_0rthg9y().withVariable("Angebotsannahme", true);
+
         tc8n.createExecutor().execute();
         // Schleife durchlaufen?
     }
